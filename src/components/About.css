@@ -1,0 +1,43 @@
+/* Container for the About page */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 4rem 2rem;
+  }
+  
+  /* Content styling */
+  .about-content {
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  .about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Paragraph styling */
+  .about-content p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .about-content h1 {
+      font-size: 2.5rem;
+    }
+    
+    .about-content p {
+      font-size: 1rem;
+    }
+  }
+  
